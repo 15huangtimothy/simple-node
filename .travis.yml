@@ -5,6 +5,8 @@ node_js:
 services:
   - docker
 
+install:
+  - echo "nothing to be installed"
 
 script:
   - docker --version
